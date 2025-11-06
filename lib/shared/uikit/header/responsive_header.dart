@@ -68,19 +68,20 @@ class ResponsiveHeader extends StatelessWidget {
           ),
           const LanguageSelector(),
           Spacer(),
-          ListView.builder(
-            shrinkWrap: true,
-            scrollDirection: Axis.horizontal,
-            itemCount: context.navItems.length,
-            itemBuilder: (context, index) {
-              return ButtonItemNavBar(
-                onPressedSection: onPressedSection,
-                item: index,
-                theme: theme,
-              );
-            },
-          ),
-          if (context.isMobile) ...[
+          if (!context.isMobile) ...[
+            ListView.builder(
+              shrinkWrap: true,
+              scrollDirection: Axis.horizontal,
+              itemCount: context.navItems.length,
+              itemBuilder: (context, index) {
+                return ButtonItemNavBar(
+                  onPressedSection: onPressedSection,
+                  item: index,
+                  theme: theme,
+                );
+              },
+            ),
+          ] else ...[
             IconButton(
               padding: EdgeInsets.zero,
               onPressed: onPressedMenu,
