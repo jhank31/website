@@ -78,77 +78,75 @@ class HomeView extends HookConsumerWidget {
         },
       ),
       backgroundColor: theme.baseTheme.baseColorPalette.backgroundColor,
-      body: ListView(
+      body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         controller: scrollController,
-        children: [
-          Column(
-            children: [
-              /// Presentation
-              PresentationSection(
-                l10n: l10n,
-                theme: theme,
-                onPressedGetInTouch: () {
-                  LaunchEmail.call(
-                    email: l10n.my_email,
-                    subject: l10n.my_email_subject,
-                    body: l10n.my_email_body,
-                  );
-                },
-              ),
+        child: Column(
+          children: [
+            /// Presentation
+            PresentationSection(
+              l10n: l10n,
+              theme: theme,
+              onPressedGetInTouch: () {
+                LaunchEmail.call(
+                  email: l10n.my_email,
+                  subject: l10n.my_email_subject,
+                  body: l10n.my_email_body,
+                );
+              },
+            ),
 
-              DividerWithMiddleText(
-                key: aboutKey,
-                text: l10n.about_me,
-                textStyle: theme.baseTheme.typography.extraxxlBold,
-              ),
+            DividerWithMiddleText(
+              key: aboutKey,
+              text: l10n.about_me,
+              textStyle: theme.baseTheme.typography.extraxxlBold,
+            ),
 
-              /// About me section
-              AboutMeSection(l10n: l10n, theme: theme),
+            /// About me section
+            AboutMeSection(l10n: l10n, theme: theme),
 
-              DividerWithMiddleText(
-                key: skillsKey,
-                text: l10n.skills,
-                textStyle: theme.baseTheme.typography.extraxxlBold,
-              ),
+            DividerWithMiddleText(
+              key: skillsKey,
+              text: l10n.skills,
+              textStyle: theme.baseTheme.typography.extraxxlBold,
+            ),
 
-              /// Skills section
-              SkillsSection(theme: theme, l10n: l10n),
+            /// Skills section
+            SkillsSection(theme: theme, l10n: l10n),
 
-              DividerWithMiddleText(
-                key: projectsKey,
-                text: l10n.projects,
-                textStyle: theme.baseTheme.typography.extraxxlBold,
-              ),
+            DividerWithMiddleText(
+              key: projectsKey,
+              text: l10n.projects,
+              textStyle: theme.baseTheme.typography.extraxxlBold,
+            ),
 
-              /// Projects section
-              ProjectSection(theme: theme, l10n: l10n),
+            /// Projects section
+            ProjectSection(theme: theme, l10n: l10n),
 
-              DividerWithMiddleText(
-                key: contactKey,
-                text: l10n.get_in_touch,
-                textStyle: theme.baseTheme.typography.extraxxlBold,
-              ),
+            DividerWithMiddleText(
+              key: contactKey,
+              text: l10n.get_in_touch,
+              textStyle: theme.baseTheme.typography.extraxxlBold,
+            ),
 
-              /// Get in touch section
-              GetInTouchSection(theme: theme, l10n: l10n),
+            /// Get in touch section
+            GetInTouchSection(theme: theme, l10n: l10n),
 
-              DividerWithMiddleText(
-                text: l10n.social_media,
-                textStyle: theme.baseTheme.typography.extraxxlBold,
-              ),
+            DividerWithMiddleText(
+              text: l10n.social_media,
+              textStyle: theme.baseTheme.typography.extraxxlBold,
+            ),
 
-              /// Social media section
-              SocialMediaSection(),
+            /// Social media section
+            SocialMediaSection(),
 
-              Gap.height16,
+            Gap.height16,
 
-              Text("${l10n.created_by} ${l10n.created_with_flutter}"),
+            Text("${l10n.created_by} ${l10n.created_with_flutter}"),
 
-              Gap.height32,
-            ],
-          ),
-        ],
+            Gap.height32,
+          ],
+        ),
       ),
     );
   }

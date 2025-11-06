@@ -68,16 +68,21 @@ class ResponsiveHeader extends StatelessWidget {
           ),
           const LanguageSelector(),
           Spacer(),
-          if (context.isDesktop || context.isTablet)
-            for (int i = 0; i < context.navItems.length; i++) ...[
-              ButtonItemNavBar(
+          ListView.builder(
+            shrinkWrap: true,
+            scrollDirection: Axis.horizontal,
+            itemCount: context.navItems.length,
+            itemBuilder: (context, index) {
+              return ButtonItemNavBar(
                 onPressedSection: onPressedSection,
-                item: i,
+                item: index,
                 theme: theme,
-              ),
-            ]
-          else ...[
+              );
+            },
+          ),
+          if (context.isMobile) ...[
             IconButton(
+              padding: EdgeInsets.zero,
               onPressed: onPressedMenu,
               icon: const Icon(Icons.menu),
               color: theme.baseTheme.baseColorPalette.primaryTextColor,

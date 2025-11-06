@@ -11,11 +11,7 @@ import 'package:web_portfolio/shared/uikit/uikit.dart';
 /// {@endtemplate}
 class ProjectSection extends StatelessWidget {
   /// {@macro project_section}
-  const ProjectSection({
-    super.key,
-    required this.theme,
-    required this.l10n,
-  });
+  const ProjectSection({super.key, required this.theme, required this.l10n});
 
   /// The theme of the project section
   final AppThemes theme;
@@ -36,7 +32,12 @@ class ProjectSection extends StatelessWidget {
         runSpacing: Sizes.p18,
         alignment: WrapAlignment.center,
         children: context.projects.map((project) {
-          return CardProject(theme: theme, project: project, l10n: l10n);
+          return CardProject(
+            key: ValueKey(project.title),
+            theme: theme,
+            project: project,
+            l10n: l10n,
+          );
         }).toList(),
       ),
     );

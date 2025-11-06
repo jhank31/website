@@ -8,5 +8,6 @@ import 'package:rive/rive.dart';
 Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
   WidgetsFlutterBinding.ensureInitialized();
   await RiveNative.init();
+
   runApp(await builder());
 }

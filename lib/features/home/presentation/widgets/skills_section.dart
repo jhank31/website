@@ -83,8 +83,10 @@ class SkillsSection extends StatelessWidget {
                           mainAxisSpacing: Sizes.p16,
                           crossAxisSpacing: Sizes.p16,
                         ),
-                        itemBuilder: (context, index) =>
-                            SvgPicture.asset(SkillsIcons.icons[index]),
+                        itemBuilder: (context, index) => SvgPicture.asset(
+                          key: ValueKey(SkillsIcons.icons[index]),
+                          SkillsIcons.icons[index],
+                        ),
                       ),
                     ),
                   ),
