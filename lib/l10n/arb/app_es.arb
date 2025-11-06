@@ -1,0 +1,111 @@
+{
+  "@@locale": "es",
+  "hello": "Hola",
+  "@hello": {
+    "description": "Hola"
+  },
+  "my_name_abbreviation": "JL",
+  "@my_name_abbreviation": {
+    "description": "Mi nombre abreviado"
+  },
+  "my_email": "jhancarloslenis@gmail.com",
+  "@my_email": {
+    "description": "Mi email"
+  },
+  "my_email_subject": "Contactame",
+  "@my_email_subject": {
+    "description": "Mi email subject"
+  },
+  "my_email_body": "Hola Jhan, me encanta tu trabajo y me gustaría discutir un proyecto contigo...",
+  "@my_email_body": {
+    "description": "Mi email body"
+  },
+  "my_presentation": "Hola, soy Jhancarlos Lenis \n y soy un Desarrollador Flutter Senior",
+  "@my_presentation": {
+    "description": "Mi presentación"
+  },
+  "home": "Inicio",
+  "@home": {
+    "description": "Inicio"
+  },
+  "skills": "Habilidades",
+  "@skills": {
+    "description": "Habilidades"
+  },
+  "projects": "Proyectos",
+  "@projects": {
+    "description": "Proyectos"
+  },
+  "contact": "Contacto",
+  "@contact": {
+    "description": "Contacto"
+  },
+  "get_in_touch": "Contactame",
+  "@get_in_touch": {
+    "description": "Contactame"
+  },
+  "what_i_can_do": "Desarrollador especializado en Flutter y Dart, construyo aplicaciones móviles fluidas y escalables para Android e iOS, integrando SQLite para un manejo eficiente de datos locales. Enfocado en rendimiento, diseño limpio y experiencias que realmente conectan con el usuario.",
+  "@what_i_can_do": {
+    "description": "el texto de lo que puedo hacer"
+  },
+  "homecenter": "Homecenter",
+  "@homecenter": {
+    "description": "Homecenter"
+  },
+  "homecenter_description": "Homecenter es una aplicación móvil para la cadena de tiendas Sodimac en América Latina. Permite navegar por los productos y agregarlos al carrito.",
+  "@homecenter_description": {
+    "description": "Homecenter app description"
+  },
+  "pideky": "Pideky",
+  "@pideky": {
+    "description": "Pideky"
+  },
+  "pideky_description": "Pideky es una aplicación móvil para la cadena de tiendas Nutresa en América. Permite navegar por los productos y agregarlos al carrito.",
+  "@pideky_description": {
+    "description": "Pideky app description"
+  },
+  "longevo": "Longevo",
+  "@longevo": {
+    "description": "Longevo"
+  },
+  "longevo_description": "Longevo es una aplicación de salud y bienestar en América Latina. Permite rastrear tus objetivos de salud y bienestar y lograr tus metas.",
+  "@longevo_description": {
+    "description": "Longevo app description"
+  },
+  "finandina_bank": "Finandina Bank",
+  "@finandina_bank": {
+    "description": "Finandina Bank"
+  },
+  "finandina_bank_description": "Finandina Bank es una aplicación bancaria en Colombia. Permite gestionar tus finanzas y inversiones.",
+  "@finandina_bank_description": {
+    "description": "Finandina Bank app description"
+  },
+  "available_on": "Disponible en",
+  "@available_on": {
+    "description": "Disponible en"
+  },    
+  "about_me": "Sobre mí",
+  "@about_me": {
+    "description": "Sobre mí"
+  },
+  "about_me_description": "Ingeniero de desarrollo de software con más de 4 años de experiencia en el desarrollo de aplicaciones móviles usando Flutter. He liderado proyectos de alto impacto desde la arquitectura hasta la implementación en tiendas, implementando soluciones modulares, escalables y orientadas a la experiencia del usuario. Experto en prácticas de desarrollo, herramientas de monitoreo y mejora de la calidad del código.",
+  "@about_me_description": {
+    "description": "Sobre mí descripción"
+  },
+  "get_in_touch_description": "Contactame para discutir tu próximo proyecto. Estoy siempre buscando nuevos desafíos y oportunidades para crecer.",
+  "@get_in_touch_description": {
+    "description": "Contactame descripción"
+  },
+  "social_media": "Redes sociales",
+  "@social_media": {
+    "description": "Redes sociales"
+  },
+  "created_by": "Creado por Jhancarlos Lenis",
+  "@created_by": {
+    "description": "Creado por Jhancarlos Lenis"
+  },
+  "created_with_flutter": "Creado con Flutter",
+  "@created_with_flutter": {
+    "description": "Creado con Flutter"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "@@locale": "en",
+  "hello": "Hello",
+  "@hello": {
+    "description": "Hello"
+  },
+  "my_email": "jhancarloslenis@gmail.com",
+  "@my_email": {
+    "description": "My email"
+  },
+  "my_email_subject": "Contact me",
+  "@my_email_subject": {
+    "description": "My email subject"
+  },
+  "my_email_body": "Hi Jhan, i love your work and i would like to discuss a project with you...",
+  "@my_email_body": {
+    "description": "My email body"
+  },
+  "my_name_abbreviation": "JL",
+  "@my_name_abbreviation": {
+    "description": "My name abbreviation"
+  },
+  "my_presentation": "Hello, I'm Jhancarlos Lenis \nand I'm a Flutter Senior Developer",
+  "@my_presentation": {
+    "description": "My presentation"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home"
+  },
+  "skills": "Skills",
+  "@skills": {
+    "description": "Skills"
+  },
+  "projects": "Projects",
+  "@projects": {
+    "description": "Projects"
+  },
+  "contact": "Contact",
+  "@contact": {
+    "description": "Contact"
+  },
+  "get_in_touch": "Get in touch",
+  "@get_in_touch": {
+    "description": "Get in touch"
+  },
+  "what_i_can_do": "Developer specialized in Flutter and Dart, building smooth and scalable mobile apps for Android and iOS, with SQLite integration for efficient local data management. Focused on performance, clean design, and crafting experiences that truly connect with users.",
+  "@what_i_can_do": {
+    "description": "the text of what i can do"
+  },
+  "homecenter": "Homecenter",
+  "@homecenter": {
+    "description": "Homecenter"
+  },
+  "homecenter_description": "Homecenter is a mobile app for the Sodimac chain of stores in Latin America. It allows you to browse the products and add them to your cart.",
+  "@homecenter_description": {
+    "description": "Homecenter app description"
+  },
+  "pideky": "Pideky",
+  "@pideky": {
+    "description": "Pideky"
+  },
+  "pideky_description": "Pideky is a mobile app for the Nutresa chain of stores in America. It allows you to browse the products and add them to your cart.",
+  "@pideky_description": {
+    "description": "Pideky app description"
+  },
+  "longevo" : "Longevo",
+  "@longevo": {
+    "description": "Longevo"
+  },
+  "longevo_description": "Longevo is a health and wellness app in Latin America. It allows you to track your health and wellness goals and achievements.",
+  "@longevo_description": {
+    "description": "Longevo app description"
+  },
+  "finandina_bank" : "Finandina Bank",
+  "@finandina_bank": {
+    "description": "Finandina Bank"
+  },
+  "finandina_bank_description": "Finandina Bank is a banking app in Colombia. It allows you to manage your finances and investments.",
+  "@finandina_bank_description": {
+    "description": "Finandina Bank app description"
+  },
+  "available_on": "Available on",
+  "@available_on": {
+    "description": "Available on"
+  },
+  "about_me": "About me",
+  "@about_me": {
+    "description": "About me"
+  },
+  "about_me_description": "Software development engineer with more than 4 years of experience in mobile application development using Flutter. I have led high impact projects from architecture to deployment in stores, implementing modular, scalable and user experience oriented solutions. Expert in development best practices, monitoring tools and code quality improvement.",
+  "@about_me_description": {
+    "description": "About me description"
+  },
+  "get_in_touch_description": "Get in touch with me to discuss your next project. I'm always looking for new challenges and opportunities to grow.",
+  "@get_in_touch_description": {
+    "description": "Get in touch description"
+  },
+  "social_media": "Social media",
+  "@social_media": {
+    "description": "Social media"
+  },
+  "created_by": "Created by Jhancarlos Lenis",
+  "@created_by": {
+    "description": "Created by Jhancarlos Lenis"
+  },
+  "created_with_flutter": "Created with Flutter",
+  "@created_with_flutter": {
+    "description": "Created with Flutter"
+  }
+}
